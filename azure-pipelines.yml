@@ -20,8 +20,8 @@ steps:
     script: |
       # Write your PowerShell commands here.
       
-      C:\Users\srahul\Documents\githubpr\python-sample
-      python -m venv venv    C:\Users\srahul\Documents\githubpr\python-sample\venv\Scripts\Activate.ps1
+      cd C:\agent\_work\5\s
+      python -m venv venv    C:\agent\_work\5\s\venv\Scripts\Activate.ps1
       python -m pip install --upgrade pip
       pip install -r requirements.txt
   displayName: 'Install dependencies'
